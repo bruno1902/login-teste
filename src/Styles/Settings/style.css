@@ -1,0 +1,18 @@
+:root{
+    --font-small: 14px;
+    --font-medium: 18px;
+    --font-big: 24px;
+
+    --font-family: 'Roboto', sans-serif;
+
+    --color-primary: #ffffff;
+    --color-string: #000000;
+
+    --bgc-body: #0f79aa;
+}
+
+body{
+    height: auto;
+    width: auto;
+    background-color: var(--bgc-body);
+}

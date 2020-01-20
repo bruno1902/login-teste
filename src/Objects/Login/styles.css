@@ -1,0 +1,31 @@
+.name-form{
+    display: flex;
+    justify-content: center;
+    padding-top: 12%;
+    padding-bottom: 7%;
+    font-family: var(--font-family);
+    font-size: var(--font-medium);
+}
+.input-form{
+    width: 90%;
+    margin-left: 4%;
+}
+.button-form{
+    margin-top: 12%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    border: none;
+    background-color: rgb(104, 238, 104);
+    padding-bottom: 15px;
+    padding-top: 7px;
+    border-radius: 8%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.button-form:hover{
+    background-color: rgb(28, 235, 28);
+    color: #ffffff;
+    transition: linear .3s;
+}
